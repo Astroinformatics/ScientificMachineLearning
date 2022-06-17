@@ -8,7 +8,7 @@
 This repository contains the following computational notebook: 
 - neuralode_gw.ipynb ([Jupyter notebook](https://github.com/Astroinformatics/ScientificMachineLearning/blob/main/neuralode_gw.ipynb)): Notebook fitting a neural ODE to simulated gravitational waveform data based on code from [Keith et al. (2021)](https://arxiv.org/abs/2102.12695) at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4477649.svg)](https://doi.org/10.5281/zenodo.4477649).
 
-The computational notebook includes to supporting files: 
+The computational notebook includes code from two supporting files: 
 - models.jl 
 - utils.jl
 
