@@ -39,6 +39,9 @@ julia> notebook()
 
 ---
 ## Additional Links
+- [Lectures from MIT's 18.337J/6.338J: Parallel Computing and Scientific Machine Learning](https://www.youtube.com/watch?v=3IoqyXmAAkU&list=PLCAl7tjCwWyGjdzOOnlbGnVNZk0kB8VSa)
+- [Online SciML Book](https://book.sciml.ai/)
+- [SciML Open Source Software Community](https://sciml.ai/)
 - [GitHub respository](https://github.com/Astroinformatics/SummerSchool2022) for all of Astroinformatics Summer school
 - Astroinformatics Summer school [Website & registration](https://sites.psu.edu/astrostatistics/astroinfo-su22/)
 
