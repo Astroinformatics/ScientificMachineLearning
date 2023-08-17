@@ -64,7 +64,7 @@ function AbstractNNOrbitModel(u, model_params, t; NN=nothing, NN_params=nothing)
     if isnothing(NN)
         nn = [1,1]
     else
-        nn = 1 .+ NN(u, NN_params)
+        nn = 1 .+ NN([u[1]], NN_params, st)[1]
     end
 
     numer = (1 + e*cos(χ))^2
@@ -102,13 +102,13 @@ function AbstractNROrbitModel(u, model_params, t;
     if isnothing(NN_chiphi)
         nn_chiphi = [1,1]
     else
-        nn_chiphi = 1 .+ NN_chiphi(u, NN_chiphi_params)
+        nn_chiphi = 1 .+ NN_chiphi(u, NN_chiphi_params, st)
     end
 
     if isnothing(NN_pe)
         nn_pe = [0,0]
     else
-        nn_pe = NN_pe(u, NN_pe_params)
+        nn_pe = NN_pe(u, NN_pe_params, st)
     end
 
     numer = (1+e*cos(χ))^2
